@@ -1,17 +1,33 @@
 *{
-    background-color: black;
+    background-color: rgb(77, 77, 124);
 }
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 20px;
+    overflow: hidden; 
   }
 h1 {
-    margin-top: 50px;
-    color: whitesmoke;
+    margin-top: 2px;
+    color:rgb(235, 225, 225);
   }
-
+.he1 {
+  padding-top: 0px;
+  padding-left: 100px;
+  margin-top: 12px;
+  color:rgb(235, 225, 225);
+}
+.he2 {
+  padding-top: 0px;
+  padding-right: 100px;
+  margin-top: 12px;
+  color:rgb(235, 225, 225);
+}
+.he3{
+  margin-top: 12px;
+  color:rgb(235, 225, 225);
+}
   .game-links {
     display: flex;
     margin-top: 30px;
@@ -30,3 +46,62 @@ h1 {
 .game-links a:hover {
     background-color: #0056b3;
   }
+  .g1,.g2,.g3{
+    background-color: blue;
+    padding:110px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+.game12{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+.game3{
+  margin-top: -15px;
+}
+.g1{
+  margin-left: 140px;
+  background-image: url('./pictures/game1.png');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px; 
+  height: 100px; 
+  border: none; 
+  cursor: pointer; 
+}
+.g2{
+  margin-right: 140px;
+  background-image: url('./pictures/game2.png');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px; 
+  height: 100px; 
+  border: none; 
+  cursor: pointer;
+}
+.g3{
+  background-image: url('./pictures/game3.png');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px; 
+  height: 100px; 
+  border: none; 
+  cursor: pointer; 
+}
+.img1{
+  height: 100%;
+  width: 100%;
+}
+.ag1,.ag2{
+  margin-right: 550px;
+  width:0px
+
+}
+.gg{
+  display: flex;
+  flex-direction: column;
+}
