@@ -51,6 +51,8 @@ h1 {
     padding:110px;
     padding-left: 200px;
     padding-right: 200px;
+    border: none;
+    border-radius: 8px;
   }
 .game12{
   display: flex;
@@ -104,4 +106,5 @@ h1 {
 .gg{
   display: flex;
   flex-direction: column;
+
 }
